@@ -49,7 +49,8 @@ header {
     background-color: var(--cor4);
     min-height: 150px;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 30px;
+    margin-bottom: -20px;
 }
 
 header > h1 {
@@ -66,8 +67,6 @@ header > p {
     font-size: 1.2em;
     color: white;
     max-width: 600px;
-    padding-right: 10px;
-    padding-right: 10px;
     margin: auto;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.288);
 }
@@ -109,6 +108,8 @@ main h1 {
     color: var(--cor5);
     font-size: 1.8em;
     font-weight: normal;
+    text-align: center;
+    margin: 15px 0px 15px 0px;
 }
 
 main h2 {
@@ -129,7 +130,7 @@ main p {
 }
 
 main strong {
-    color: var(--cor4);
+    color: black;
 }
 
 main a {
@@ -182,7 +183,10 @@ aside > ul {
     list-style-type: '\2714  ';
     list-style-position: inside;
     columns: 2;
+}
 
+abbr {
+    text-decoration: none;
 }
 
 aside > h3 {
